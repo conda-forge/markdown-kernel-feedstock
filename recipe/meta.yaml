@@ -1,5 +1,5 @@
 {% set name = "markdown-kernel" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6487c240a7424fb20f62aa61d0dd16971e9a757fe08d1482916560156eef7b3b
+  sha256: bcf0a0426ff9c07dbad0963c543b342f26e8ddcb8207875dbb878568b9893661
 
 build:
   number: 0

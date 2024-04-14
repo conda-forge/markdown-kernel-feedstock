@@ -1,5 +1,5 @@
 {% set name = "markdown-kernel" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bcf0a0426ff9c07dbad0963c543b342f26e8ddcb8207875dbb878568b9893661
+  sha256: be56278d195a6188f8878abe2a2fed056e5ff700e1b22cc88e07f87d5493e9c0
 
 build:
   number: 0
@@ -36,8 +36,7 @@ test:
 
 about:
   home: https://github.com/vatlab/markdown-kernel
-  license: BSD
-  license_family: BSD
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: "A markdown kernel for jupyter"
   doc_url: https://github.com/vatlab/markdown-kernel

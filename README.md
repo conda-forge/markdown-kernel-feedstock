@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/markdown-kernel
 
 Home: https://github.com/vatlab/markdown-kernel
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Summary: A markdown kernel for jupyter
 
